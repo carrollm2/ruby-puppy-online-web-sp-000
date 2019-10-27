@@ -3,7 +3,7 @@ class Dog
 
   def initialize(name)
     self.name = name
-    @@all.push(name)
+    save
   end
 
   def self.all?
@@ -16,5 +16,8 @@ class Dog
     end
   end
 
+  def save
+    @@all.push(self.name)
+  end
 
 end
