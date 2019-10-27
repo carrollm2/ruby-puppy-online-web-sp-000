@@ -8,7 +8,6 @@ class Dog
 
   def name=(name)
     self.name = name
-
   end
 
   #def self.all?
